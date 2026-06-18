@@ -1,0 +1,10 @@
+Roadmap_Order,Feature,In_MVP,Estimated_Sprints,Start_Sprint,End_Sprint,Primary_Dependencies,Primary_Resources
+1,Specify dataset,Yes,1,1,1,None,"Data Scientist; Data Analyst"
+2,Select and instruct labeling team,Yes,1,1,1,"Specify dataset","AI Product Manager; Annotation Manager"
+3,Prepare data: Split videos into clips,Yes,2,2,3,"Select and instruct labeling team","Annotation Team; QA Lead"
+4,Prepare data: Apply labels,Yes,2,3,4,"Prepare data: Split videos into clips","Annotation Team; QA Lead"
+5,Build ML model to clip video into individual recipe steps,Yes,2,5,6,"Prepare data: Apply labels","ML Engineer; Data Scientist"
+6,Generate video captions,Yes,1,6,7,"Build ML model to clip video into individual recipe steps","ML Engineer; Backend Engineer"
+7,Generate video title, video description, and recipe summary,Yes,1,7,7,"Generate video captions","ML Engineer; Prompt Engineer"
+8,Create app to edit the clips and text,Yes,2,5,8,"Build ML model to clip video into individual recipe steps","Mobile Engineer; UX Designer"
+9,Publish to TastyTube,Yes,1,9,9,"Create app to edit the clips and text; Generate video captions; Generate video title, video description, and recipe summary","Mobile Engineer; Backend Engineer"
